@@ -12,5 +12,11 @@
     "dev:deno": "deno --watch --allow-env --allow-net deno.mjs",
     "start:bun": "bun bun.mjs",
     "dev:bun": "bun --watch bun.mjs"
+  },
+  "overrides": {
+    "form-data": "2.5.6",
+    "uuid": "11.1.1",
+    "qs": "6.14.1",
+    "tough-cookie": "4.1.3"
   }
 }
